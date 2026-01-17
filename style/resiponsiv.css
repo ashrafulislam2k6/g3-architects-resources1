@@ -1,15 +1,20 @@
 /* header section is responsive start  */
 @media screen and (max-width:576px) {
     .nav-section,.ul-link
-    ,.section {
+    ,.section , .fact-container{
         flex-direction: column;
     }
-    .team-container{
+    .team-container  {
         grid-template-columns: repeat(1,1fr);
 
     }
     .feautures-conainer{
         margin-left: 30px;
+    }
+     .fact-container{
+      justify-items: center;
+      justify-content:center;
+        
     }
 
 }
@@ -37,3 +42,6 @@
         margin:0 auto;
     }
 }
+
+
+
