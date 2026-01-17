@@ -1,0 +1,39 @@
+/* header section is responsive start  */
+@media screen and (max-width:576px) {
+    .nav-section,.ul-link
+    ,.section {
+        flex-direction: column;
+    }
+    .team-container{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .feautures-conainer{
+        margin-left: 30px;
+    }
+
+}
+
+/* medium device - responsive  */
+@media  screen and (min-width:577px) and (max-width:992px){
+    
+    .section{
+        flex-direction: column;
+    
+    
+   
+    }
+    .team-container{
+         display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
+     
+    }
+    .main-img{
+        width:100%;
+        height: 100%;
+    }
+    .feautures-conainer{
+        margin:0 auto;
+    }
+}
